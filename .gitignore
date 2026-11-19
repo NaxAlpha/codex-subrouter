@@ -1,0 +1,28 @@
+# Local build and release output
+/dist/
+/build/
+*.app/
+*.zip
+*.dmg
+*.dSYM/
+.DS_Store
+__MACOSX/
+__pycache__/
+*.pyc
+
+# User configuration and private state
+.env
+.env.*
+!.env.example
+config.toml
+auth.json
+provider-switcher.json
+*.sqlite*
+*.jsonl
+*.plist.backup
+*.bak
+.provider-switcher-*.tmp
+Backups/
+recovery/
+work/
+*.log
